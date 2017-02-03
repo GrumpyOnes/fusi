@@ -1,2 +1,2 @@
 # fusi
-![pics](images/LOGO.svg)
+![pics](indexpic.png)

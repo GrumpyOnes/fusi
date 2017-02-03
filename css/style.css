@@ -1,0 +1,136 @@
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	font-family:Arial,sans-serif;
+	font-size:14px;
+	line-height:1.5;
+	color:#111;
+}
+.container{
+	width:800px;
+	margin:0 auto;
+	padding:3em 0;
+}
+.container .logo{
+	width:150px;
+	height:auto;
+	padding-bottom:2em;
+}
+.container .use-egs{
+	border: 1px solid #e9e9e9;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container .use-eg{
+	display:inline-block;
+	width:200px;
+	vertical-align: middle;
+}
+.container .use-eg:nth-child(1){
+	font-size:128px;
+}
+.container .use-eg:nth-child(2){
+	font-size:88px;
+}
+.container .use-eg:nth-child(3){
+	font-size:48px;
+}
+.container .introduce .introword{
+	padding:0 2em 1em 2em;
+}
+.container .introduce h5{
+	font-size:1rem;
+}
+.container .introduce ol{
+	padding-left:1em;
+}
+.container .introduce code{
+	color:#006699;
+	background:#eee;
+	padding:0.3em 1em;
+	line-height:2.4em;
+} 
+.container .font-lists{
+	overflow:hidden;
+}
+.container .font-lists .font-box{
+	height:90px;
+	width:112px;
+	border:1px #e8e8e8 solid;
+	padding-top:22px;
+	text-align:center;
+	float:left;
+}
+ .container .font-lists .font-box:nth-child(even){
+	 background:#e8e8e8;
+ }
+ .container .font-lists .font-box.black-bg{
+	 background:#333;
+ }
+  .container .font-lists .font-box.black-bg i{
+	  color:#fff;
+  }
+  .container .font-lists .font-box.black-bg font{
+	  color:rgba(255,255,255,0.3)
+  }
+.container .font-lists .font-box i{
+	font-size:42px;
+	color:#242424;
+}
+.container .font-lists .font-box font{
+	font-size:12px;
+	color:#666;
+	position:relative;
+	top:-5px;
+	line-height:1.1;
+	display:inline-block;
+}
+
+.font-lists h4{
+	width:100%;
+	text-align:center;
+	line-height:4em;
+	letter-spacing: 30px;
+}
+.paly-egs{
+	font-size:64px;
+}
+.paly-egs span{
+	display:inline-block;
+	width:150px;
+}
+.twinkled  i{
+	color:rgba(235,42,47,0.3);
+	
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: breathe;
+    -webkit-animation-duration: 2700ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes breathe {
+    0% { color:rgba(85,60,60,0.2); text-shadow:0 0px 1px rgba(238,9,19,0.1);}
+    100% {  color:rgba(255,255,255,0.3); text-shadow:0 0px 6px rgba(238,9,19,1);}
+}
+.hidenshow{
+	display:inline-block;
+	overflow:hidden;
+	width:64px !important;
+}
+.hidenshow i{
+	display:block;
+	width:64px;
+	position:relative;
+	color:rgba(0,0,0,0.8);
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: showhide;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+@-webkit-keyframes showhide {
+    0% {right:-80px; transform: rotate(23deg);}
+    50% {right:0px;transform: rotate(0deg);}
+}
